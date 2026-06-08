@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vaktinde — Gizlilik Politikası</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="nav"><a href="index.html">← Vaktinde</a><a href="terms.html">Kullanım Koşulları</a><a href="delete-account.html">Hesap Silme</a></nav>
+
+<h1>Gizlilik Politikası</h1>
+<p class="updated">Son güncelleme: 9 Haziran 2026 · Vaktinde 1.0.0</p>
+
+<p>Bu Gizlilik Politikası, <strong>Vaktinde</strong> mobil uygulamasının kullanıcı verilerini nasıl işlediğini açıklar.</p>
+
+<h2>1. Topladığımız veriler</h2>
+<p>Vaktinde <strong>local-first</strong> çalışır: oluşturduğun hatırlatmalar öncelikle cihazında saklanır ve giriş yapmadan kullanılabilir.</p>
+<p><strong>Giriş yapmadan (yalnızca cihazda):</strong> hatırlatma başlığı, kategori, zamanlama, tekrar bilgisi; bildirim tercihleri, saat dilimi, haftanın ilk günü; tamamla/ertele/atla aksiyon geçmişi. Bu veriler cihazdaki SQLite veritabanında tutulur ve sunucularımıza gönderilmez.</p>
+<p><strong>Apple veya Google ile giriş yaptığında (opsiyonel yedekleme/senkronizasyon):</strong> sağlayıcıdan gelen e-posta adresi ve (varsa) ad; hesabını tanımlayan kullanıcı kimliği (user ID); senkronizasyon açıkken hatırlatma içeriğin. Şifre saklamayız; kimlik doğrulama Apple/Google üzerinden yapılır.</p>
+
+<h2>2. Verileri ne için kullanırız</h2>
+<ul>
+  <li>Hatırlatmaları göstermek ve bildirim/alarm planlamak.</li>
+  <li>Tamamla/ertele/atla aksiyonlarını kaydetmek.</li>
+  <li>Giriş yaptığında hatırlatmalarını cihazlar arası yedeklemek/senkronize etmek.</li>
+  <li>Tercihlerini (saat dilimi vb.) korumak.</li>
+</ul>
+<p>Verilerini <strong>reklam veya takip (tracking)</strong> amacıyla kullanmayız.</p>
+
+<h2>3. Bildirim gizliliği</h2>
+<p>Bildirim ve alarm içerikleri hassas bilgi (ilaç adı, not vb.) taşımaz; jenerik hatırlatma metinleri gösterilir.</p>
+
+<h2>4. Veri paylaşımı</h2>
+<p>Kişisel verilerini <strong>üçüncü taraflara satmaz veya pazarlama amacıyla paylaşmayız.</strong> Yalnızca uygulamanın çalışması için şu hizmet sağlayıcıları kullanırız:</p>
+<table>
+  <tr><th>Sağlayıcı</th><th>Amaç</th><th>Veri</th></tr>
+  <tr><td>Supabase</td><td>Kimlik doğrulama ve veri senkronizasyonu</td><td>E-posta, user ID, hatırlatma içeriği</td></tr>
+  <tr><td>Apple — Sign in with Apple</td><td>Giriş</td><td>E-posta/ad, kullanıcı kimliği</td></tr>
+  <tr><td>Google Sign-In</td><td>Giriş</td><td>E-posta/ad, kullanıcı kimliği</td></tr>
+</table>
+<p>Tüm iletişim TLS/HTTPS ile şifrelenir.</p>
+
+<h2>5. Veri saklama ve silme</h2>
+<ul>
+  <li>Cihazdaki veriler uygulamayı silersen kaybolur.</li>
+  <li>Giriş yaptıysan, hesabını ve sunucudaki verilerini uygulama içinden silebilirsin: <strong>Ayarlar → Hesap → Hesabı sil</strong>.</li>
+  <li>Web üzerinden silme talebi ve ayrıntılar: <a href="delete-account.html">Hesap ve Veri Silme</a>.</li>
+</ul>
+<p>Silme talebi alındığında hesabın ve ilişkili verilerin makul süre içinde kalıcı olarak silinir.</p>
+
+<h2>6. Sağlık konumlandırması</h2>
+<p>Vaktinde <strong>tıbbi tavsiye, teşhis veya tedavi sunmaz.</strong> Yalnızca senin oluşturduğun kişisel hatırlatmaları gösterir; ilaç, doz veya tedavi önerisi yapmaz, ilaç etkileşimi kontrol etmez. Kritik kararlar için sağlık profesyoneline danış.</p>
+
+<h2>7. Çocuklar</h2>
+<p>Vaktinde çocuklara yönelik tasarlanmamıştır ve bilerek 13 yaş altından veri toplamaz.</p>
+
+<h2>8. Haklarına dair</h2>
+<p>Konumuna bağlı olarak (KVKK / GDPR vb.) verilerine erişme, düzeltme, silme ve işlemeye itiraz etme hakların olabilir. Talepler için: <a href="mailto:destek@example.com">destek@example.com</a>.</p>
+
+<h2>9. Değişiklikler</h2>
+<p>Bu politikayı güncelleyebiliriz. Önemli değişikliklerde bu sayfadaki "Son güncelleme" tarihini değiştiririz.</p>
+
+<h2>10. İletişim</h2>
+<p>Vaktinde · E-posta: <a href="mailto:destek@example.com">destek@example.com</a></p>
+
+<footer>© 2026 Vaktinde</footer>
+</body>
+</html>
