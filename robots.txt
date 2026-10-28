@@ -1,0 +1,4 @@
+# Crawlers use /robots.txt at the host root, not /vaktinde-legal/robots.txt.
+User-agent: *
+Allow: /vaktinde-legal/
+Sitemap: https://alisahindev.github.io/vaktinde-legal/sitemap.xml
