@@ -30,6 +30,7 @@ footer { margin-top: 3rem; padding-top: 1.4rem; border-top: 1px solid #d7ebe4; c
   body { background: #0f1715; color: #e3efec; }
   h2 { color: #5ecdb8; }
   a { color: #5ecdb8; }
+  .updated, footer { color: #9aafaa; }
   th { background: #16302b; }
   td, th { border-color: #24403a; }
   code, .card { background: #16221f; }
